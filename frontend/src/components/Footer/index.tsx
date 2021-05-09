@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 export function Footer() {
   return (
-    <footer className="footer mt-auto py-1">
+    <footer className="footer mt-auto py-4">
       <div className="container">
         <p className="text-light">
           App desenvolvido por Emerson Chaves
