@@ -55,16 +55,18 @@ export function BarChart() {
     plotOptions: {
       bar: {
         horizontal: true,
+        distributed: true,
+        barWidth: '50%'
       },
     },
   };
 
   return (
     <Chart
-      options={{ ...options, xaxis: chartaData.labels }}
+      options={{ ...options,  xaxis: chartaData.labels }}
       series={chartaData.series}
       type="bar"
-      height="240"
+      height="270"
     />
   );
 }

@@ -29,6 +29,14 @@ export function DonutChart() {
     legend: {
       show: true,
     },
+
+    plotOptions: {
+      pie: {
+        donut:{
+          size: '50%'
+        }
+      }
+    }
   };
 
   return (
@@ -36,7 +44,7 @@ export function DonutChart() {
       options={{ ...options, labels: chartData.labels }}
       series={chartData.series}
       type="donut"
-      height="240"
+      height="270"
     />
   );
 }
