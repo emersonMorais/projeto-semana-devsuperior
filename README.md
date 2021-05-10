@@ -106,7 +106,7 @@ yarn start
 
 ```
 
-- Também possível testá-lo no Também é possível testá-lo através do link : 
+- Também possível testá-lo através do link : 
 
    <a> https://emerson-morais-dsvendas.netlify.app/</a>
 
